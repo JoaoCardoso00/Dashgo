@@ -32,7 +32,7 @@ export default function SignIn() {
             type="email"
             name="email"
             label="E-mail"
-            {...register("email")}
+            {...register("email", { required: "E-mail obrigatório" })}
           />
           <Input
             type="password"
