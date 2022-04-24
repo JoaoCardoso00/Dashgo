@@ -144,6 +144,3 @@ export default function UserList() {
     </Box>
   );
 }
-function useBreakPointValue(arg0: { base: boolean; lg: boolean }) {
-  throw new Error("Function not implemented.");
-}
